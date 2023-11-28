@@ -3,6 +3,16 @@
 > Este proyecto forma parte de las prácticas impartidas en la asignatura de AW/SW.
 >
 > Autores: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
+>
+> EasyRent es un negocio dedicado al alquiler de coches de forma online. No precisamos de
+ninguna sede física, por lo que toda la interacción con los clientes será a través de la página
+web. EasyRent permitirá a los clientes buscar coches según la localización que deseen para
+unos determinados días, meses u horas. Además, los clientes podrán configurar la entrega y
+devolución del vehículo en determinadas localizaciones, sin necesidad de que estas
+coincidan o, simplemente, dejando el coche aparcado en la calle, dentro de los límites
+permitidos, y cerrar el alquiler desde su teléfono móvil . En cuánto a la selección del
+vehículo, EasyRent permite filtrar por modelo de vehículo, combustible, categoría, caja de
+cambios, número de asientos o accesorios.
 
 
 ## Como colaborar
