@@ -1,0 +1,609 @@
+body {
+  background-color: #cdcdcd;
+}
+
+div#contenedor {
+  margin: auto;
+  border: 1px solid black;
+  background-color: #aaaaaa;
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: 100%;
+}
+
+aside#sidebarIzq {
+  height: auto;
+  width: auto;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+aside#sidebarDer {
+  height: auto;
+  width: auto;
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+}
+
+div.buscadorVehiculo {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #303030;
+  padding: 10px;
+  background-color: rgba(247, 167, 19, 0.926);
+  color: white;
+}
+
+div.infoButton {
+  grid-column: 1/4;
+  margin: auto;
+  border: 3px solid #303030;
+  padding: 10px;
+  width: 900px;
+  height: 100%;
+  color: white;
+  background: rgba(247, 167, 19, 0.926);
+  margin-top: 10px;
+}
+
+div.administracion {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+div.promociones {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  grid-row: 3 / 4;
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+.tituloNombre {
+  position: absolute;
+  left: 500px;
+  font-style: italic;
+  color: white;
+}
+
+.atajoMiembro {
+  position: absolute;
+  left: 300px;
+  font-style: italic;
+  color: white;
+}
+
+.fotoMiembro {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  left: 700px;
+}
+
+.tituloCorreo {
+  position: relative;
+  left: 30px;
+  top: 200px;
+  font-style: italic;
+  color: white;
+}
+
+.correoMiembro {
+  position: relative;
+  top: 225px;
+  left: 30px;
+  font-style: italic;
+  color: white;
+}
+
+.tituloDescripcion {
+  position: relative;
+  left: 30px;
+  top: -150px;
+  font-style: italic;
+  color: white;
+}
+
+.descripcionMiembro {
+  position: relative;
+  left: 30px;
+  top: -120px;
+  font-style: italic;
+  color: white;
+}
+
+.tituloProm {
+  position: absolute;
+  left: 550px;
+  top: 670px;
+  color: white;
+}
+
+.tituloPagina {
+  text-align: center;
+  color: white;
+}
+
+.adminClass {
+  text-align: center;
+  color: white;
+}
+
+.listAdmin {
+  text-align: center;
+  color: white;
+}
+
+.cuadroFaqAntes {
+  position: relative;
+  top: 100px;
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+}
+
+.infoIndex {
+  position: relative;
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+}
+
+.cuadroAtCliente {
+  position: relative;
+  top: 100px;
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+}
+
+.cuadriculaAdmin {
+  margin: 30px;
+  text-align: center;
+  padding: 10px;
+  grid-row: 4 / 4;
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  width: 100%;
+  line-height: 50px;
+}
+
+.infoAdmin {
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+}
+
+.tituloAtCliente {
+  position: relative;
+  left: 420px;
+}
+
+div.administracion {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: auto;
+  font-size: xx-large;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+}
+
+div#admin {
+  float: left;
+  margin: 10px;
+  width: 20%;
+  height: 20%;
+  border: 3px solid #303030;
+  padding: 10px;
+}
+
+div.v {
+  margin: 20px;
+  padding: 10px;
+}
+
+div.v h2 {
+  text-align: center;
+}
+
+div#promo {
+  margin: 10px;
+  width: auto;
+  height: auto;
+  border: 3px solid #303030;
+}
+
+div.vehiculos {
+  display: flex;
+  justify-content: center;
+}
+
+div#vehiculo {
+  margin: 10px;
+  width: 50%;
+  border: 3px solid #303030;
+  padding: 10px;
+  text-align: center;
+}
+
+div#fechas {
+  display: flex; /* 2. display flex to the rescue */
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  padding: 30px;
+  grid-column: 1 / 4;
+  background-color: rgba(247, 167, 19, 0.926);
+  color: white;
+}
+
+div.navegador {
+  padding: 30px;
+  height: 100px;
+}
+
+header a,
+header a:visited {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav {
+  padding: 10px;
+  float: left;
+  width: 170px;
+  height: 400px;
+  background-color: #ff0000;
+}
+
+nav a,
+nav a:visited {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+aside {
+  padding: 10px;
+  float: right;
+  width: 170px;
+  height: 400px;
+  background-color: #dddddd;
+}
+
+.imagenBanner {
+  width: 100%;
+  height: 100px;
+}
+
+.packLeft {
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+  position: absolute;
+  left: 100px;
+  top: 720px;
+}
+.packRight {
+  border: 3px solid #303030;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-family: serif;
+  color: white;
+  background-color: rgba(247, 167, 19, 0.926);
+  position: absolute;
+  left: 700px;
+  top: 720px;
+}
+
+main {
+  padding: 10px;
+  min-height: 600px;
+  width: 1233px;
+  background-color: rgb(181, 177, 177);
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  background-color: rgba(247, 167, 19, 0.926);
+  color: white;
+  text-align: center;
+  grid-column: 1 / 4;
+  grid-row: 5 / 6;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div.saludo {
+  width: 100%;
+  text-align: right;
+}
+
+button.dropbtn {
+  background-color: #303030;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+div.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+div.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+div.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+div.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+div.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+fieldset {
+  border: 1px solid black;
+  margin: auto;
+}
+
+fieldset div {
+  justify-content: center;
+  margin: 5px auto;
+}
+
+legend {
+  color: #fff;
+  background: #303030;
+  border: 1px solid black;
+  padding: 2px 6px;
+}
+
+label {
+  margin-right: 0.5em;
+  display: block;
+}
+
+input {
+  display: block;
+}
+
+.form-field-error {
+  display: block;
+}
+
+.mensajes {
+  position: fixed;
+  width: 100%;
+}
+
+.mensaje {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 30%;
+  margin: 0.2em auto;
+  background-color: white;
+}
+
+.mensajes input {
+  display: none;
+}
+
+.mensaje .cabecera {
+  font-size: 2em;
+  line-height: 0.7em;
+  text-align: right;
+  padding: 0 0.1em;
+}
+
+.mensaje .contenido {
+  padding: 0.2em 1em;
+  text-align: center;
+}
+
+.mensajes input:checked + .mensaje {
+  display: none;
+}
+
+form#inrow {
+  display: flex; /* 2. display flex to the rescue */
+  flex-direction: row;
+}
+
+form.inline {
+  display: inline;
+}
+
+form button.enlace,
+form button.enlace:visited {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+}
+
+form button.enlace:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button,
+a.boton {
+  border: 1px solid black;
+  font-size: 0.9em;
+  font-family: Arial;
+  font-weight: 400;
+}
+
+a.boton {
+  color: inherit;
+  text-decoration: none;
+  background-color: rgb(239, 239, 239);
+  padding: 1px 6px;
+  margin: 1px 5px;
+}
+
+button,
+a.boton {
+  border: 1px solid black;
+  font-size: 0.9em;
+  font-family: Arial;
+  font-weight: 400;
+}
+
+.inline {
+  display: inline;
+}
+
+a.deshabilitado {
+  color: rgba(16, 16, 16, 0.3);
+}
+
+form#inrow {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  border: 3px solid #303030;
+  padding: 10px;
+}
+
+div.infoContacto {
+  text-align: center;
+  margin: auto;
+  width: auto;
+  border: 3px solid #303030;
+  padding: 10px;
+}
+
+div.infoclient {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #303030;
+  padding: 10px;
+  background-color: rgba(247, 167, 19, 0.926);
+  color: white;
+}
+
+div.administracion {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: auto;
+  text-align: center;
+  width: 100%;
+}
+
+div.administracion.h2 {
+  grid-column: 1/4;
+}
+
+.info {
+  grid-column: 1/4;
+  margin: auto;
+  border: 3px solid #303030;
+  padding: 10px;
+  width: 900px;
+  height: 100%;
+  color: white;
+  background: rgba(247, 167, 19, 0.926);
+}
+
+div#promo {
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  border: 3px solid #303030;
+  padding: 10px;
+  text-align: center;
+}
