@@ -2,7 +2,7 @@
 
 > Este proyecto forma parte de las prácticas impartidas en la asignatura de AW/SW.
 >
-> Autores: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández
+> Autores: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
 
 
 ## Como colaborar
