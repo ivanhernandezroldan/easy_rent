@@ -2,7 +2,7 @@
 
 > Este proyecto forma parte de las prácticas impartidas en la asignatura de AW/SW.
 >
-> Autores: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
+> **Autores**: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
 >
 > EasyRent es un negocio dedicado al alquiler de coches de forma online. No precisamos de
 ninguna sede física, por lo que toda la interacción con los clientes será a través de la página
