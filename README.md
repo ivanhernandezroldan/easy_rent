@@ -1,43 +1,31 @@
-# Aplicaciones/Sistemas Web
+# Web Application/System
 
-> Este proyecto forma parte de las prácticas impartidas en la asignatura de AW/SW.
->
-> **Autores**: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
->
-> EasyRent es un negocio dedicado al alquiler de coches de forma online. No precisamos de
-ninguna sede física, por lo que toda la interacción con los clientes será a través de la página
-web. EasyRent permitirá a los clientes buscar coches según la localización que deseen para
-unos determinados días, meses u horas. Además, los clientes podrán configurar la entrega y
-devolución del vehículo en determinadas localizaciones, sin necesidad de que estas
-coincidan o, simplemente, dejando el coche aparcado en la calle, dentro de los límites
-permitidos, y cerrar el alquiler desde su teléfono móvil . En cuánto a la selección del
-vehículo, EasyRent permite filtrar por modelo de vehículo, combustible, categoría, caja de
-cambios, número de asientos o accesorios.
+> This project is part of the practices given in the AW/SW subject.  
+> **Authors**: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.  
+> EasyRent is a business dedicated to online car rental. We do not require a physical office, so all interactions with customers will be through the website. EasyRent will allow customers to search for cars according to the location they want for a certain number of days, months, or hours. In addition, customers can configure the delivery and return of the vehicle at specific locations, without the need for them to coincide or simply by leaving the car parked on the street, within permitted limits, and closing the rental from their mobile phone. Regarding the selection of the vehicle, EasyRent allows filtering by vehicle model, fuel type, category, gearbox, number of seats, or accessories 
 
+## How to Collaborate
 
-## Como colaborar
+#### Requirements:
 
-#### Requerimientos:
+It is necessary to use [pre-commit](https://github.com/pre-commit/pre-commit) for the use of the code formatting tool [Prettier](https://prettier.io/) before commits.
 
-Hace falta hacer uso de [pre-commit](https://github.com/pre-commit/pre-commit) para el empleo de la herramienta de formateo de codigo [Prettier](https://prettier.io/) antes de los commits.
+#### Installation:
 
-#### Instalacion:
+1. Install `pre-commit`
 
-1. Instalar `pre-commit`
-
-- Para ello es necesario tener instalado [pip](https://pypi.org/project/pip/)
+- To do this, it is necessary to have [pip](https://pypi.org/project/pip/) installed 
 - Linux: `pip install pre-commit`
 
-2. Si no existe, crear en el directorio raiz del proyecto, el archivo `.pre-commit-config.yaml` con la configuracion de [Prettier](https://prettier.io/) (obtenida de [aqui](https://prettier.io/docs/en/precommit.html)).
-3. Ubicados en el directorio del proyecto (que apunta al [este](https://github.com/Missionpage/sw-practices) repositorio en Github), instalar la configuracion descrita en el archivo anteriormente mencionado, realizando:
+2. If it does not exist, create the .pre-commit-config.yaml file with the [Prettier](https://prettier.io/) configuration in the project's root directory (obtained from [here](https://prettier.io/docs/en/precommit.html)).
+3. Located in the project directory (pointing to [this Github](https://github.com/Missionpage/sw-practices) repository), install the configuration described in the aforementioned file by executing: 
 
 - `pre-commit install`
 
-* Si `pre-commit` no se ha agragado a las variables de entorno (PATH), se puede agregar antes de realizar el anterior comando, o bien, se puede ejecutar: `/home/<user>/.local/bin/pre-commit install`
+* If `pre-commit` has not been added to the environment variables (PATH), it can be added before running the previous command, or it can be executed as follows: `/home/<user>/.local/bin/pre-commit install`
 
-#### Pasos para hacer una implementacion
-
-1. Crear una nueva rama con **main** como base en la que tendremos que subir todo lo que vayamos haciendo.
-2. Cuando se haya implementado todo lo que se queria en la nueva rama; hay que hacer un **pull request** a la rama develop y en la descripcion poner: "Closes #(num. de la issue que se ha hecho)" .
-3. (Opcional) Poner a una persona que revise la PR
-4. Rellenar todas las demas opciones que da: quien se ha encargado de hacer el codigo, de que milestone es, a que proyecto corresponde, etc.
+#### Steps to Implement
+1. Create a new branch with **main** as the base where you will have to upload everything you do.
+2. When everything you wanted has been implemented in the new branch, create a **pull request** to the develop branch and in the description, put: "Closes #(issue number that was done)".
+3. (Optional) Assign someone to review the PR.
+4. Fill in all the other options provided: who took care of the code, which milestone it is, which project it corresponds to, etc.
