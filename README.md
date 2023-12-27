@@ -1,9 +1,9 @@
 # Web Application/System
 
 > This project is part of the practices given in the "Web Applications/Web Systems" subject.
-  
+> 
 > **Authors**: Almudena Gómez-Sancha, Luis Egui, Notkero Gómez, Óscar Otero, Patricia Plata, Iván Hernández.
- 
+>
 > EasyRent is a business dedicated to online car rental. We do not require a physical office, so all interactions with customers will be through the website. EasyRent will allow customers to search for cars according to the location they want for a certain number of days, months, or hours. In addition, customers can configure the delivery and return of the vehicle at specific locations, without the need for them to coincide or simply by leaving the car parked on the street, within permitted limits, and closing the rental from their mobile phone. Regarding the selection of the vehicle, EasyRent allows filtering by vehicle model, fuel type, category, gearbox, number of seats, or accessories 
 
 ## How to Collaborate
